@@ -7,7 +7,9 @@ function Header() {
   return (
     <div className='header'>
       <div className='logo-wrapper'>
-        <i className='logo'></i>
+        <Link to="/">
+          <i className='logo'></i>
+        </Link>
       </div>
       <div className='menu'>
         <div className='item'>

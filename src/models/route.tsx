@@ -5,4 +5,5 @@ export default interface IRoute {
   component: any;
   layout: any;
   props?: any;
+  match?: any;
 }

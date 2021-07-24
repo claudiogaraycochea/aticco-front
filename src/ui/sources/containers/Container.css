@@ -67,6 +67,10 @@
     padding: 40px;
   }
 
+  .container {
+    max-width: 1200px;
+  }
+
   .row {
     flex-direction: row;
   }
